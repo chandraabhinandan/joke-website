@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;    
+    height: 95.5vh;
+}
+h1, p, label{
+    font-size: 2rem;
+    color: cyan;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+}
+label{
+    display: block;
+}
+select{
+    font-size: 1.5rem;
+    background-color: lightgreen;    
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 30px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+input{
+    font-size: 1.5rem;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+    background-color: lightgreen; /* Green background */
+    color: black; /* White text */
+    border: none; /* Remove border */
+    
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 20%;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: 0.1s; /* Smooth transition for background color */
+}
+input:hover{
+    background-color: #45a049; /* Darker green on hover */
+    color: yellow; /* Change text color on hover */
+}
